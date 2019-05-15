@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template: 300px / 45% 45%;
+}
+
+.grid section:nth-child(1) {
+  background: whitesmoke;
+}
+
+.grid section:nth-child(2) {
+  background: red;
+}
